@@ -10,8 +10,7 @@ const Profile = require("./src/profiledb");
 // const conn = require("./connection")
 let imagename;
 const multer = require("multer");
-const { send, title } = require("process");
-const { profile } = require("console");
+
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
     cb(null, "./public/thumbnails");

@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 async function main() {
-  mongoose.connect("mongodb://localhost:27017/todolistDb", {
+  mongoose.connect("mongodb://localhost:27017/web_sharing", {
     useNewUrlParser: true,
   });
   // await mongoose.connect(
